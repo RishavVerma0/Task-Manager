@@ -53,3 +53,5 @@ Tools Used
 	•	Version Control:
 	•	Git
 	•	GitHub
+
+This combination of tools facilitated the development of a responsive and functional task management application.
