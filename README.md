@@ -1,4 +1,4 @@
-Here is the updated README.md file with the additional commands for running the backend and frontend:
+Here’s the updated README.md file, formatted for proper display on GitHub:
 
 Task Manager
 
@@ -21,62 +21,67 @@ Setup and Run Instructions
 Backend
 	1.	Navigate to the Backend Directory:
 
-• cd backend
+cd backend
 
 
 	2.	Install Dependencies:
 Ensure you have Node.js installed. Then, run:
 
-• npm install
+npm install
 
 
 	3.	Start the Backend Server:
 
-• npm start
+npm start
 
-
-	4.	The backend server will be running on the specified port (default: 5000).
+The backend server will be running on the specified port (default: 5000).
 
 Frontend
 	1.	Navigate to the Frontend Directory:
 
- • cd frontend
+cd frontend
 
 
 	2.	Install Dependencies:
 Run the following command to install required packages:
 
-• npm install
+npm install
 
 
 	3.	Start the Frontend Development Server:
 
-• npm run dev
+npm run dev
+
+The frontend application will be running, accessible via the development server URL (default: http://localhost:5173).
+
+Running Both Backend and Frontend Simultaneously
+
+To run both the backend and frontend, open two terminal windows and execute the following commands:
+	•	Backend:
+
+cd backend
+npm start
 
 
-	4.	The frontend application will be running, accessible via the development server URL (default: http://localhost:5173).
+	•	Frontend:
 
-To run both backend and frontend simultaneously, follow these steps in separate terminal windows:
-		For the backend:
-
-• cd backend
-• npm start
+cd frontend
+npm run dev
 
 
-		For the frontend:
-
-• cd frontend
-• npm run dev
 
 Approach and Thought Process
 
 The development of the Task Manager followed a structured approach:
-	•	Requirement Analysis: Identified the core functionalities required for task management, including creating, reading, updating, and deleting tasks.
-	•	Design: Crafted a simple and intuitive user interface to ensure ease of use.
+	•	Requirement Analysis:
+Identified the core functionalities required for task management, including creating, reading, updating, and deleting tasks.
+	•	Design:
+Crafted a simple and intuitive user interface to ensure ease of use.
 	•	Development:
 	•	Backend: Implemented using Node.js and Express.js to handle API endpoints and data management.
 	•	Frontend: Built with modern JavaScript frameworks for dynamic UI rendering.
-	•	Testing: Conducted thorough testing to identify and fix bugs, ensuring a smooth user experience.
+	•	Testing:
+Conducted thorough testing to identify and fix bugs, ensuring a smooth user experience.
 
 Tools Used
 	•	Backend:
@@ -88,4 +93,3 @@ Tools Used
 	•	Version Control:
 	•	Git
 	•	GitHub
-
